@@ -19,6 +19,6 @@ jobs:
 
       - name: Compare the output 
         run: |
-                  diff -Z test_data/test1_output.txt test_data/test1_expected.txt || echo "Test 1 failed!"
-                  diff -Z test_data/test2_output.txt test_data/test2_expected.txt || echo "Test 2 failed!"
-                  diff -Z test_data/test3_output.txt test_data/test3_expected.txt || echo "Test 3 failed!"
+                  diff -Z test_data/test1_output.txt test_data/test1_expected.txt 
+                  diff -Z test_data/test2_output.txt test_data/test2_expected.txt 
+                  diff -Z test_data/test3_output.txt test_data/test3_expected.txt 
